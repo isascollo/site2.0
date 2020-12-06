@@ -1,10 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html, body {
-  background-color: #e6e6e6;
   font-family: 'Roboto Mono', monospace;
   columns: #222;
 }
+ 
+.centre-row {
+  display: inline-block;
+  width: 100%;
+}
+#intro {
+  background-image: url('bckg.gif');
+}
+
+#intro h1 {
+  color: #fff;
+  opacity: 70%;
+  border-style: solid;
+  border-color: #fff;
+  display: inline-block;
+}
+
 .bback {
   height: 100%;
   background-color: black;

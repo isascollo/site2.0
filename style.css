@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html, body {
+  background-color: rgb(10, 10, 10);
   font-family: 'Roboto Mono', monospace;
-  columns: #222;
+  color: rgb(212, 212, 212);
 }
  
 .centre-row {
@@ -153,9 +154,6 @@ html, body {
 @media (max-width: 576px) {
   .anchor {
     top: -80px;
-  }
-  .intro {
-    padding: 2rem;
   }
   .welcome {
     width: 90%;
